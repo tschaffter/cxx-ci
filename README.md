@@ -1,5 +1,3 @@
-# CXX build and test environment
+# cxx-ci
 
-```
-docker build -t tschaffter/cxx-ci .
-```
+CXX build and test environment
