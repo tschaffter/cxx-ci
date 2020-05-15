@@ -1,6 +1,6 @@
 # cxx-ci
 
-![Docker Image CI](https://github.com/tschaffter/cxx-ci/workflows/Docker%20Image%20CI/badge.svg)
+[![Docker Image CI](https://github.com/tschaffter/cxx-ci/workflows/Docker%20Image%20CI/badge.svg)](https://hub.docker.com/repository/docker/tschaffter/cxx-ci)
 
 CXX build and test environment
 
