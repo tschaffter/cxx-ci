@@ -11,10 +11,10 @@ RUN apt-get update -qq -y && apt-get install -qq -y \
 # Install Python (cmake-format)
 RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get update -qq -y && apt-get install -qq -y \
-    python3.8 \
+    python3.9 \
     python3-pip
 
-RUN ln -s -f $(command -v python3.8) /usr/bin/python \
+RUN ln -s -f $(command -v python3.9) /usr/bin/python \
     && ln -s -f $(command -v pip3) /usr/bin/pip
 
 RUN pip install cmake-format
