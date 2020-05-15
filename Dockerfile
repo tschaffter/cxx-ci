@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:focal-20200423
 
 LABEL maintainer="thomas.schaffter@gmail.com"
 
